@@ -17,7 +17,7 @@ This project implements the ​`RISC-V Hummingbird E203 (hbirdv2)` core on Xilin
 │
 ├── E203_Zynq_7020/ - Vivado Hardware Project / Vivado硬件工程
 │
-├── SDK/ - Xilinx SDK Projects / Xilinx软件开发工程
+├── SDK/ - Nuclei Studio SDK Projects / Nuclei Studio软件开发工程
 │
 └── XDC/ - Physical Constraints / 物理约束
 │ └── e203_zynq_7020.xdc - ZYNQ7020 Pin Assignment / 引脚分配文件

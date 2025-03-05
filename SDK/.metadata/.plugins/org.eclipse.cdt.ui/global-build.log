@@ -1,0 +1,197 @@
+20:18:13 **** Build of configuration Debug for project hello_test ****
+make all 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_getres.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_getres.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_getres.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_getres.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_getres.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_getres.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_gettime.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_gettime.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_gettime.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_gettime.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_gettime.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_gettime.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_settime.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_settime.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_settime.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_settime.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_settime.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_settime.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/close.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/close.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/close.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/close.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/close.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/close.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/execve.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/execve.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/execve.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/execve.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/execve.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/execve.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/exit.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/exit.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/exit.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/exit.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/exit.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/exit.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fork.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fork.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fork.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fork.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fork.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fork.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fstat.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fstat.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fstat.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fstat.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fstat.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fstat.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/getpid.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/getpid.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/getpid.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/getpid.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/getpid.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/getpid.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/gettimeofday.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/gettimeofday.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/gettimeofday.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/gettimeofday.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/gettimeofday.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/gettimeofday.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/isatty.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/isatty.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/isatty.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/isatty.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/isatty.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/isatty.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/kill.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/kill.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/kill.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/kill.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/kill.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/kill.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/link.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/link.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/link.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/link.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/link.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/link.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/lseek.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/lseek.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/lseek.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/lseek.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/lseek.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/lseek.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/open.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/open.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/open.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/open.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/open.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/open.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/read.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/read.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/read.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/read.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/read.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/read.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/sbrk.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/sbrk.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/sbrk.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/sbrk.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/sbrk.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/sbrk.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/stat.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/stat.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/stat.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/stat.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/stat.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/stat.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/times.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/times.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/times.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/times.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/times.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/times.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/unlink.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/unlink.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/unlink.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/unlink.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/unlink.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/unlink.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/wait.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/wait.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/wait.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/wait.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/wait.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/wait.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/write.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/write.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/write.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/write.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/write.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/write.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/GCC/intexc_hbirdv2.S
+Invoking: GNU RISC-V Cross Assembler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -x assembler-with-cpp -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/GCC/intexc_hbirdv2.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/GCC/intexc_hbirdv2.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/GCC/intexc_hbirdv2.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/GCC/intexc_hbirdv2.S"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/GCC/intexc_hbirdv2.S
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/GCC/startup_hbirdv2.S
+Invoking: GNU RISC-V Cross Assembler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -x assembler-with-cpp -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/GCC/startup_hbirdv2.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/GCC/startup_hbirdv2.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/GCC/startup_hbirdv2.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/GCC/startup_hbirdv2.S"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/GCC/startup_hbirdv2.S
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_gpio.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_gpio.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_gpio.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_gpio.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_gpio.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_gpio.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_i2c.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_i2c.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_i2c.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_i2c.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_i2c.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_i2c.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_pwm.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_pwm.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_pwm.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_pwm.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_pwm.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_pwm.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_spi.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_spi.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_spi.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_spi.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_spi.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_spi.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_uart.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_uart.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_uart.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_uart.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_uart.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_uart.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/htif.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/htif.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/htif.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/htif.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/htif.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/htif.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/hbirdv2_common.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/hbirdv2_common.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/hbirdv2_common.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/hbirdv2_common.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/hbirdv2_common.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/hbirdv2_common.c
+ 
+Building file: ../hbird_sdk/SoC/hbirdv2/Common/Source/system_hbirdv2.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"hbird_sdk/SoC/hbirdv2/Common/Source/system_hbirdv2.d" -MT"hbird_sdk/SoC/hbirdv2/Common/Source/system_hbirdv2.o" -c -o "hbird_sdk/SoC/hbirdv2/Common/Source/system_hbirdv2.o" "../hbird_sdk/SoC/hbirdv2/Common/Source/system_hbirdv2.c"
+Finished building: ../hbird_sdk/SoC/hbirdv2/Common/Source/system_hbirdv2.c
+ 
+Building file: ../application/main.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-nuclei-elf-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -D__IDE_RV_CORE=null -DSOC_HBIRD -DDOWNLOAD_MODE=DOWNLOAD_MODE_ILM -DDOWNLOAD_MODE_STRING=\"ILM\" -DBOARD_DDR200T -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\NMSIS\Core\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Common\Include" -I"D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Include" -I"D:\projects\E203_P1\SDK\hello_test\application" -std=gnu11 -MMD -MP -MF"application/main.d" -MT"application/main.o" -c -o "application/main.o" "../application/main.c"
+Finished building: ../application/main.c
+ 
+Building target: hello_test.elf
+Invoking: GNU RISC-V Cross C++ Linker
+riscv-nuclei-elf-g++ -march=rv32imac -mabi=ilp32 -mcmodel=medany -mno-save-restore -O2 -ffunction-sections -fdata-sections -fno-common  -g -T "D:\projects\E203_P1\SDK\hello_test\hbird_sdk\SoC\hbirdv2\Board\ddr200t\Source\GCC\gcc_hbirdv2_ilm.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"hello_test.map" --specs=nano.specs --specs=nosys.specs -u _isatty -u _write -u _sbrk -u _read -u _close -u _fstat -u _lseek -o "hello_test.elf"  ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_getres.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_gettime.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/clock_settime.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/close.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/execve.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/exit.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fork.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/fstat.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/getpid.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/gettimeofday.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/isatty.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/kill.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/link.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/lseek.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/open.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/read.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/sbrk.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/stat.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/times.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/unlink.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/wait.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Stubs/write.o  ./hbird_sdk/SoC/hbirdv2/Common/Source/GCC/intexc_hbirdv2.o ./hbird_sdk/SoC/hbirdv2/Common/Source/GCC/startup_hbirdv2.o  ./hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_gpio.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_i2c.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_pwm.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_spi.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/hbirdv2_uart.o ./hbird_sdk/SoC/hbirdv2/Common/Source/Drivers/htif.o  ./hbird_sdk/SoC/hbirdv2/Common/Source/hbirdv2_common.o ./hbird_sdk/SoC/hbirdv2/Common/Source/system_hbirdv2.o  ./application/main.o   -lstdc++
+Finished building target: hello_test.elf
+ 
+make --no-print-directory post-build
+riscv-nuclei-elf-objcopy -O verilog "hello_test.elf" "hello_test.verilog";sed -i 's/@800/@000/g' "hello_test.verilog"; sed -i 's/@00002FB8/@00002000/g' "hello_test.verilog";
+ 
+Invoking: GNU RISC-V Cross Create Flash Image
+riscv-nuclei-elf-objcopy -O ihex "hello_test.elf"  "hello_test.hex"
+Finished building: hello_test.hex
+ 
+Invoking: GNU RISC-V Cross Create Listing
+riscv-nuclei-elf-objdump --source --all-headers --demangle --line-numbers --wide "hello_test.elf" > "hello_test.lst"
+Finished building: hello_test.lst
+ 
+Invoking: GNU RISC-V Cross Print Size
+riscv-nuclei-elf-size --format=berkeley "hello_test.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7864	    116	   2356	  10336	   2860	hello_test.elf
+Finished building: hello_test.siz
+ 
+20:18:23 **** Incremental Build of configuration Debug for project hello_test ****
+make all 
+Invoking: GNU RISC-V Cross Print Size
+riscv-nuclei-elf-size --format=berkeley "hello_test.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7864	    116	   2356	  10336	   2860	hello_test.elf
+Finished building: hello_test.siz
+ 

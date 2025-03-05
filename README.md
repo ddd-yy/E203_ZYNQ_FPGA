@@ -29,7 +29,7 @@ This project implements the ​`RISC-V Hummingbird E203 (hbirdv2)` core on Xilin
 - Xilinx ZYNQ-7020 Development Board  
 - JTAG Debugger (OpenOCD compatible)  
 
-### Software Tools / 软件工具
+### Software Tools
 - ​**FPGA Toolchain**:  
   - Vivado 2018.3 + Xilinx SDK
 - ​**Simulation Tools**:  
@@ -38,8 +38,8 @@ This project implements the ​`RISC-V Hummingbird E203 (hbirdv2)` core on Xilin
   - RISC-V GNU Toolchain (rv32imc-ilp32)
   - Xilinx SDK 2018.3
 
-## 🚀 Quick Start Guide / 快速入门指南
+## 🚀 Quick Start Guide
 For detailed implementation steps, please refer to：[移植教程](https://blog.csdn.net/m0_62001119/article/details/145997546)
 
-## 📜 License / 许可证声明
+## 📜 License
 This project is licensed under Apache 2.0 License. Commercial use must comply with Nuclei E203's original license terms.  

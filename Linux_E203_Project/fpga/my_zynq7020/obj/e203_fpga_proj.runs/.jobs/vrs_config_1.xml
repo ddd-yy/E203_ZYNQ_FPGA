@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="PLL_synth_1" LaunchDir="/home/ICer/ic_prjs/e203_hbirdv2_MOD/fpga/my_zynq7020/obj/e203_fpga_proj.runs/PLL_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

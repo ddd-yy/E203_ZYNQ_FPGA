@@ -1,0 +1,421 @@
+8        
+0 e203_defines.v
+0 /home/synopsys/vcs-mx/O-2018.09-1/etc/systemverilog/e203_defines.v
+0 config.v
+0 /home/synopsys/vcs-mx/O-2018.09-1/etc/systemverilog/config.v
+0 i2c_master_defines.v
+0 /home/synopsys/vcs-mx/O-2018.09-1/etc/systemverilog/i2c_master_defines.v
+0 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/i2c_master_defines.v
+0 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/i2c_master_defines.v
+170
++incdir+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_i2c/
++itf+/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcsdp_lite.tab
++lint=all,noSVA-NSVU,noVCDE,noUI,noSVA-CE,noSVA-DIU
++v2k
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/synopsys/vcs-mx/O-2018.09-1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvirsim.so /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/liberrorinf.so /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libsnpsmalloc.so /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/synopsys/vcs-mx/O-2018.09-1/include
+-P
+-debug_access+all
+-fsdb
+-full64
+-gen_obj
+-picarchive
+-q
+-sverilog
+-timescale=1ns/10ps
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/config.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_biu.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_clk_ctrl.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_clkgate.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_core.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_cpu.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_cpu_top.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_defines.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_dtcm_ctrl.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_dtcm_ram.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_extend_csr.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu_bjp.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu_csrctrl.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu_dpath.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu_lsuagu.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu_muldiv.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu_rglr.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_branchslv.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_commit.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_csr.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_decode.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_disp.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_excp.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_longpwbck.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_nice.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_oitf.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_regfile.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_wbck.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_ifu.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_ifu_ifetch.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_ifu_ift2icb.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_ifu_litebpu.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_ifu_minidec.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_irq_sync.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_itcm_ctrl.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_itcm_ram.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_lsu.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_lsu_ctrl.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_reset_ctrl.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_srams.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/debug/sirv_debug_csr.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/debug/sirv_debug_module.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/debug/sirv_debug_ram.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/debug/sirv_debug_rom.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/debug/sirv_jtag_dtm.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/fab/sirv_icb1to16_bus.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/fab/sirv_icb1to2_bus.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/fab/sirv_icb1to8_bus.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_1cyc_sram_ctrl.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_gnrl_bufs.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_gnrl_dffs.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_gnrl_icbs.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_gnrl_ram.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_gnrl_xchecker.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_sim_ram.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_sram_icb_ctrl.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/mems/sirv_mrom.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/mems/sirv_mrom_top.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/adv_timer_apb_if.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/apb_adv_timer.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/comparator.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/input_stage.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/prescaler.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/timer_cntrl.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/timer_module.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/up_down_counter.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_gpio/apb_gpio.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_i2c/apb_i2c.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_i2c/i2c_master_bit_ctrl.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_i2c/i2c_master_byte_ctrl.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_i2c/i2c_master_defines.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/apb_spi_master.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/spi_master_apb_if.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/spi_master_clkgen.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/spi_master_controller.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/spi_master_fifo.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/spi_master_rx.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/spi_master_tx.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_uart/apb_uart.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_uart/io_generic_fifo.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_uart/uart_interrupt.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_uart/uart_rx.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_uart/uart_tx.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_AsyncResetReg.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_AsyncResetRegVec.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_AsyncResetRegVec_1.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_AsyncResetRegVec_129.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_AsyncResetRegVec_36.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_DeglitchShiftRegister.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_LevelGateway.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_ResetCatchAndSync.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_ResetCatchAndSync_2.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_aon.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_aon_lclkgen_regs.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_aon_porrst.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_aon_top.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_aon_wrapper.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_clint.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_clint_top.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_expl_axi_slv.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_flash_qspi.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_flash_qspi_top.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_hclkgen_regs.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_jtaggpioport.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_plic_man.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_plic_top.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_pmu.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_pmu_core.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_qspi_arbiter.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_qspi_fifo.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_qspi_media.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_qspi_physical.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_queue.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_queue_1.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_repeater_6.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_rtc.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_spi_flashmap.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_tl_repeater_5.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_tlfragmenter_qspi_1.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_tlwidthwidget_qspi.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_wdog.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/soc/e203_soc_top.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_clint.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_gfcm.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_hclkgen.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_hclkgen_rstsync.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_main.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_mems.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_nice_core.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_perips.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_plic.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_pll.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_pllclkdiv.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_top.v
+/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/tb/tb_top.v
+/home/synopsys/vcs-mx/O-2018.09-1/linux64/bin/vcs1
+/home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+92
+sysc_uni_pwd=/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run
+XMODIFIERS=@im=ibus
+XILINX_VIVADO=/home/Xilinx/Vivado/2019.1
+XDG_VTNR=1
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=1
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/ICer/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XAUTHORITY=/run/gdm/auth-for-ICer-Jkohzm/database
+WINDOWPATH=1
+VTE_VERSION=5204
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/synopsys/verdi/Verdi_O-2018.09-SP2
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/home/synopsys/vcs-mx/O-2018.09-1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+USERNAME=ICer
+UNAME=/bin/uname
+TOOL_HOME=/home/synopsys/vcs-mx/O-2018.09-1/linux64
+SYNPLIFY_HOME=/home/synopsys/fpga/N-2018.03-SP1
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=10355
+SPYGLASS_HOME=/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/
+SPECMAN_HOME=/home/cadence/INCISIVE152/components/sn
+SPECMAN_DIR=/home/cadence/INCISIVE152/components/sn/
+SIM_TOOL=vcs
+SIM=vcs
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/10221,unix/unix:/tmp/.ICE-unix/10221
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCL_HOME=/home/synopsys/scl/2018.06
+RUN_DIR=/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run
+RISCV=/home/Riscv_Tools
+QUESTASIM_HOME=/home/mentor/questasim
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_IM_MODULE=ibus
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib/qt-3.3/lib
+QTINC=/usr/lib/qt-3.3/include
+QTDIR=/usr/lib/qt-3.3
+QEMU_HOME=/home/Riscv_Tools/riscv-gnu-toolchain/qemu-6.0.0
+PT_HOME=/home/synopsys/pts/O-2018.06-SP1
+OVA_UUM=0
+MMSIMHOME=/home/cadence/MMSIM151
+MGLS_LICENSE_FILE=/home/mentor/questasim/mentor.dat
+MGC_LICENSE_FILE=/home/mentor//license/license.dat
+MGC_HOME=/home/mentor/
+MGC_CALIBRE_SCHEMATIC_SERVER=IC_EDA:9199
+MGC_CALIBRE_LAYOUT_SERVER=IC_EDA:9189
+MFLAGS=-w
+MAKE_TERMOUT=/dev/pts/1
+MAKE_TERMERR=/dev/pts/1
+MAKEOVERRIDES=${-*-command-variables-*-}
+MAKELEVEL=2
+MAKEFLAGS=w -- SIM_TOOL=vcs RUN_DIR=/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run SIM=vcs
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_TIME=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_HOME=/home/synopsys/lc/O-2018.06-SP1
+LC_ALL=C
+KDEDIRS=/usr
+INCISIVE_HOME=/home/cadence/INCISIVE152
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+ICC2_HOME=/home/synopsys/icc2/O-2018.06-SP1
+HISTCONTROL=ignoredups
+GNOME_TERMINAL_SERVICE=:1.151
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/236944b5_8f31_4df7_9a50_ebe94224b998
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=zh_CN.UTF-8
+GDMSESSION=gnome-classic
+DVE_HOME=/home/synopsys/vcs-mx/O-2018.09-1
+DESKTOP_SESSION=gnome-classic
+DC_HOME=/home/synopsys/syn/O-2018.06-SP1
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-AuLWCPE90Y,guid=2f1975a1e1fc344904301d6f67bed7e1
+COLORTERM=truecolor
+CDS_LIC_FILE=/home/cadence/license/cadence.dat
+CDSHOME=/home/cadence/IC617
+CALIBRE_HOME=/home/mentor//Calibre2015/aoi_cal_2015.2_36.27
+CADHOME=/home/cadence
+0
+139
+1740662773 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/tb/tb_top.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_uart/uart_rx.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_uart/apb_uart.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_uart/io_generic_fifo.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_uart/uart_tx.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_uart/uart_interrupt.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/apb_adv_timer.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/prescaler.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/timer_module.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/input_stage.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/up_down_counter.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/adv_timer_apb_if.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/timer_cntrl.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_adv_timer/comparator.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/spi_master_rx.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/spi_master_fifo.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/apb_spi_master.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/spi_master_controller.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/spi_master_apb_if.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/spi_master_clkgen.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_spi_master/spi_master_tx.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_i2c/apb_i2c.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_i2c/i2c_master_bit_ctrl.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_i2c/i2c_master_defines.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_i2c/i2c_master_byte_ctrl.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/apb_gpio/apb_gpio.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_sram_icb_ctrl.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_sim_ram.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_gnrl_ram.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_gnrl_icbs.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_1cyc_sram_ctrl.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_gnrl_dffs.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_gnrl_xchecker.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/general/sirv_gnrl_bufs.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/fab/sirv_icb1to8_bus.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/fab/sirv_icb1to16_bus.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/fab/sirv_icb1to2_bus.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/debug/sirv_debug_csr.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/debug/sirv_debug_ram.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/debug/sirv_debug_module.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/debug/sirv_jtag_dtm.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/debug/sirv_debug_rom.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/soc/e203_soc_top.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_ifu_ift2icb.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_dtcm_ctrl.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu_rglr.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_itcm_ctrl.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_wbck.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_clkgate.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_cpu.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_regfile.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_oitf.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu_dpath.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_excp.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_commit.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_srams.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_clk_ctrl.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_core.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_branchslv.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_decode.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_ifu_ifetch.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_ifu.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu_bjp.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_ifu_litebpu.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_nice.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu_csrctrl.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_disp.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_reset_ctrl.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_itcm_ram.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_defines.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_extend_csr.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_biu.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu_lsuagu.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_dtcm_ram.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_cpu_top.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_longpwbck.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_ifu_minidec.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/config.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_csr.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_lsu_ctrl.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_exu_alu_muldiv.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_lsu.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/core/e203_irq_sync.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_qspi_arbiter.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_AsyncResetReg.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_qspi_physical.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_wdog.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_aon_lclkgen_regs.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_AsyncResetRegVec_129.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_tlfragmenter_qspi_1.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_qspi_media.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_queue_1.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_pmu.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_plic_man.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_plic_top.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_LevelGateway.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_expl_axi_slv.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_AsyncResetRegVec.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_hclkgen_regs.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_DeglitchShiftRegister.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_aon_top.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_tlwidthwidget_qspi.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_ResetCatchAndSync_2.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_ResetCatchAndSync.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_clint_top.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_flash_qspi_top.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_qspi_fifo.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_jtaggpioport.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_rtc.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_queue.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_aon.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_pmu_core.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_spi_flashmap.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_AsyncResetRegVec_36.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_repeater_6.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_AsyncResetRegVec_1.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_clint.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_flash_qspi.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_tl_repeater_5.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_aon_porrst.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/perips/sirv_aon_wrapper.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/mems/sirv_mrom_top.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/mems/sirv_mrom.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_clint.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_main.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_perips.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_pll.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_top.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_hclkgen_rstsync.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_gfcm.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_mems.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_nice_core.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_hclkgen.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_plic.v
+1740662758 /home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/../install/rtl/subsys/e203_subsys_pllclkdiv.v
+1550753332 /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+1539400757 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcsdp_lite.tab
+4
+1539402341 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvirsim.so
+1539401183 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/liberrorinf.so
+1539401125 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libsnpsmalloc.so
+1539401175 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvfs.so
+1740662785 simv.daidir
+-1 partitionlib

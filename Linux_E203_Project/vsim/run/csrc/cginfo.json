@@ -1,0 +1,918 @@
+{
+    "LVLData": [
+        "SIM"
+    ],
+    "cycles_program_begin": 389348647693885,
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_stime_sec": 0.39202999999999999,
+            "ru_utime_sec": 2.8771599999999999,
+            "ru_nvcsw": 116,
+            "ru_majflt": 54,
+            "ru_maxrss_kb": 141892,
+            "ru_nivcsw": 40,
+            "ru_minflt": 58913
+        },
+        "ru_self_end": {
+            "ru_stime_sec": 0.51564500000000002,
+            "ru_utime_sec": 6.9841420000000003,
+            "ru_nvcsw": 119,
+            "ru_majflt": 54,
+            "ru_maxrss_kb": 153516,
+            "ru_nivcsw": 47,
+            "ru_minflt": 73980
+        },
+        "totalObjSize": 13371046,
+        "ru_childs_cgstart": {
+            "ru_stime_sec": 0.045331000000000003,
+            "ru_utime_sec": 0.016878000000000001,
+            "ru_nvcsw": 41,
+            "ru_majflt": 7,
+            "ru_maxrss_kb": 82600,
+            "ru_nivcsw": 24,
+            "ru_minflt": 10656
+        },
+        "ru_childs_end": {
+            "ru_stime_sec": 0.045331000000000003,
+            "ru_utime_sec": 0.016878000000000001,
+            "ru_nvcsw": 41,
+            "ru_majflt": 7,
+            "ru_maxrss_kb": 82600,
+            "ru_nivcsw": 24,
+            "ru_minflt": 10656
+        },
+        "cpu_cycles_cgstart": 389360721115258,
+        "cpu_cycles_end": 389376808429675,
+        "nMops": 1064911,
+        "outputSizePerQuad": 39.063615833403937,
+        "nQuads": 342289,
+        "cpu_cycles_total": 28160735790,
+        "quadSpeed": 83343.194589116771,
+        "mopSpeed": 259292.83352106239,
+        "mop/quad": 3.1111458445933113,
+        "realTime": 7.4580490589141846,
+        "Frontend(%)": 41.337376553702171,
+        "peak_mem_kb": 340904,
+        "CodeGen(%)": 58.662623446297829
+    },
+    "perf": [
+        {
+            "stat": [
+                "main",
+                "entry",
+                0.047389030456542969,
+                0.021523,
+                0.18429899999999999,
+                211492,
+                211492,
+                0.0,
+                0.0,
+                1740662776.4559951,
+                389348648068223
+            ],
+            "sub": [
+                {
+                    "stat": [
+                        "doParsingAndDesignResolution",
+                        "entry",
+                        0.067528963088989258,
+                        0.024124,
+                        0.19567999999999999,
+                        267420,
+                        268220,
+                        0.0,
+                        0.0,
+                        1740662776.476135,
+                        389348724546111
+                    ],
+                    "sub": []
+                },
+                {
+                    "stat": [
+                        "doParsingAndDesignResolution",
+                        "exit",
+                        0.44492101669311523,
+                        0.3236,
+                        0.27357500000000001,
+                        304428,
+                        305076,
+                        0.0,
+                        0.0,
+                        1740662776.8535271,
+                        389350158755829
+                    ],
+                    "sub": []
+                },
+                {
+                    "stat": [
+                        "doPostDesignResolutionToVir2Vcs",
+                        "entry",
+                        0.45975494384765625,
+                        0.33809299999999998,
+                        0.27391799999999999,
+                        304428,
+                        305076,
+                        0.0,
+                        0.0,
+                        1740662776.868361,
+                        389350215013461
+                    ],
+                    "sub": [
+                        {
+                            "stat": [
+                                "doUptoVir2VcsNoSepCleanup",
+                                "entry",
+                                0.90967893600463867,
+                                0.75547699999999995,
+                                0.30219000000000001,
+                                308524,
+                                308536,
+                                0.0,
+                                0.0,
+                                1740662777.318285,
+                                389351924814873
+                            ],
+                            "sub": []
+                        },
+                        {
+                            "stat": [
+                                "doUptoVir2VcsNoSepCleanup",
+                                "exit",
+                                2.9671030044555664,
+                                2.7175799999999999,
+                                0.37800899999999998,
+                                337684,
+                                337700,
+                                0.0083090000000000004,
+                                0.010736000000000001,
+                                1740662779.3757091,
+                                389359743074979
+                            ],
+                            "sub": []
+                        },
+                        {
+                            "stat": [
+                                "doRadify_vir2vcsAll",
+                                "entry",
+                                2.9672050476074219,
+                                2.7176710000000002,
+                                0.378021,
+                                337684,
+                                337700,
+                                0.0083090000000000004,
+                                0.010736000000000001,
+                                1740662779.3758111,
+                                389359743321257
+                            ],
+                            "sub": []
+                        },
+                        {
+                            "stat": [
+                                "doRadify_vir2vcsAll",
+                                "exit",
+                                3.1251969337463379,
+                                2.8680870000000001,
+                                0.38559599999999999,
+                                337684,
+                                337700,
+                                0.0083090000000000004,
+                                0.010736000000000001,
+                                1740662779.533803,
+                                389360343834573
+                            ],
+                            "sub": []
+                        }
+                    ]
+                },
+                {
+                    "stat": [
+                        "doPostDesignResolutionToVir2Vcs",
+                        "exit",
+                        3.1252620220184326,
+                        2.8681459999999999,
+                        0.385604,
+                        337684,
+                        337700,
+                        0.0083090000000000004,
+                        0.010736000000000001,
+                        1740662779.5338681,
+                        389360343925811
+                    ],
+                    "sub": []
+                },
+                {
+                    "stat": [
+                        "doGAToPass2",
+                        "entry",
+                        3.1252849102020264,
+                        2.868166,
+                        0.38560699999999998,
+                        337684,
+                        337700,
+                        0.0083090000000000004,
+                        0.010736000000000001,
+                        1740662779.533891,
+                        389360344010095
+                    ],
+                    "sub": [
+                        {
+                            "stat": [
+                                "DoPass2",
+                                "entry",
+                                3.2243528366088867,
+                                2.8770150000000001,
+                                0.39201000000000003,
+                                332360,
+                                337700,
+                                0.016878000000000001,
+                                0.045331000000000003,
+                                1740662779.6329589,
+                                389360720625818
+                            ],
+                            "sub": []
+                        },
+                        {
+                            "stat": [
+                                "DoPass2",
+                                "exit",
+                                7.4495358467102051,
+                                6.9772309999999997,
+                                0.51407499999999995,
+                                340876,
+                                340904,
+                                0.016878000000000001,
+                                0.045331000000000003,
+                                1740662783.8581419,
+                                389376776438349
+                            ],
+                            "sub": []
+                        }
+                    ]
+                },
+                {
+                    "stat": [
+                        "doGAToPass2",
+                        "exit",
+                        7.4556519985198975,
+                        6.9817910000000003,
+                        0.51563099999999995,
+                        340876,
+                        340904,
+                        0.016878000000000001,
+                        0.045331000000000003,
+                        1740662783.8642581,
+                        389376799645063
+                    ],
+                    "sub": []
+                }
+            ]
+        },
+        {
+            "stat": [
+                "main",
+                "exit",
+                7.4578838348388672,
+                6.9840109999999997,
+                0.51564500000000002,
+                340868,
+                340904,
+                0.016878000000000001,
+                0.045331000000000003,
+                1740662783.8664899,
+                389376808051081
+            ],
+            "sub": []
+        }
+    ],
+    "CurCompileUdps": {},
+    "NameTable": {
+        "e203_subsys_hclkgen": [
+            "e203_subsys_hclkgen",
+            "jY9AH",
+            "module",
+            3
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            1
+        ],
+        "sirv_gnrl_pipe_stage_0001_0001": [
+            "sirv_gnrl_pipe_stage_0001_0001",
+            "waHV9",
+            "module",
+            54
+        ],
+        "e203_subsys_plic": [
+            "e203_subsys_plic",
+            "tzTUw",
+            "module",
+            2
+        ],
+        "e203_lsu": [
+            "e203_lsu",
+            "CayIR",
+            "module",
+            27
+        ],
+        "e203_subsys_mems": [
+            "e203_subsys_mems",
+            "Bv14t",
+            "module",
+            5
+        ],
+        "sirv_hclkgen_regs": [
+            "sirv_hclkgen_regs",
+            "vEErM",
+            "module",
+            17
+        ],
+        "apb_uart_sv": [
+            "apb_uart_sv",
+            "ZB8bA",
+            "module",
+            72
+        ],
+        "e203_subsys_nice_core_0000": [
+            "e203_subsys_nice_core_0000",
+            "fN8LT",
+            "module",
+            4
+        ],
+        "sirv_qspi_arbiter": [
+            "sirv_qspi_arbiter",
+            "jhGfw",
+            "module",
+            25
+        ],
+        "e203_exu_csr": [
+            "e203_exu_csr",
+            "IADfU",
+            "module",
+            28
+        ],
+        "tb_top": [
+            "tb_top",
+            "jdPWL",
+            "module",
+            73
+        ],
+        "sirv_aon_porrst": [
+            "sirv_aon_porrst",
+            "BQabA",
+            "module",
+            7
+        ],
+        "e203_exu_regfile_0000": [
+            "e203_exu_regfile_0000",
+            "bmIqA",
+            "module",
+            42
+        ],
+        "e203_exu_disp": [
+            "e203_exu_disp",
+            "cYskE",
+            "module",
+            32
+        ],
+        "e203_subsys_clint": [
+            "e203_subsys_clint",
+            "IS11u",
+            "module",
+            6
+        ],
+        "sirv_flash_qspi": [
+            "sirv_flash_qspi",
+            "Bfwgn",
+            "module",
+            8
+        ],
+        "sirv_jtaggpioport": [
+            "sirv_jtaggpioport",
+            "udmt7",
+            "module",
+            12
+        ],
+        "sirv_gnrl_icb_buffer_0000": [
+            "sirv_gnrl_icb_buffer_0000",
+            "fdYnY",
+            "module",
+            60
+        ],
+        "sirv_pmu": [
+            "sirv_pmu",
+            "SJRjz",
+            "module",
+            20
+        ],
+        "e203_srams": [
+            "e203_srams",
+            "ktfkw",
+            "module",
+            38
+        ],
+        "sirv_ResetCatchAndSync_2": [
+            "sirv_ResetCatchAndSync_2",
+            "z45m5",
+            "module",
+            15
+        ],
+        "sirv_gnrl_pipe_stage_0001_0002": [
+            "sirv_gnrl_pipe_stage_0001_0002",
+            "AurmS",
+            "module",
+            55
+        ],
+        "e203_reset_ctrl_0000": [
+            "e203_reset_ctrl_0000",
+            "tMFi6",
+            "module",
+            31
+        ],
+        "sirv_qspi_flashmap": [
+            "sirv_qspi_flashmap",
+            "Y9g88",
+            "module",
+            9
+        ],
+        "e203_exu_wbck": [
+            "e203_exu_wbck",
+            "vrSPU",
+            "module",
+            44
+        ],
+        "sirv_queue": [
+            "sirv_queue",
+            "J4sYN",
+            "module",
+            10
+        ],
+        "apb_adv_timer": [
+            "apb_adv_timer",
+            "PUfqk",
+            "module",
+            71
+        ],
+        "sirv_rtc": [
+            "sirv_rtc",
+            "kjRSi",
+            "module",
+            11
+        ],
+        "sirv_gnrl_ltch": [
+            "sirv_gnrl_ltch",
+            "UTi0b",
+            "module",
+            59
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            74
+        ],
+        "sirv_qspi_fifo": [
+            "sirv_qspi_fifo",
+            "InfCa",
+            "module",
+            13
+        ],
+        "sirv_ResetCatchAndSync": [
+            "sirv_ResetCatchAndSync",
+            "V0U0n",
+            "module",
+            14
+        ],
+        "e203_clkgate": [
+            "e203_clkgate",
+            "hUMUg",
+            "module",
+            43
+        ],
+        "sirv_aon_top": [
+            "sirv_aon_top",
+            "cgMtV",
+            "module",
+            16
+        ],
+        "sirv_gnrl_pipe_stage_0000": [
+            "sirv_gnrl_pipe_stage_0000",
+            "dIYxP",
+            "module",
+            53
+        ],
+        "e203_exu_alu_dpath": [
+            "e203_exu_alu_dpath",
+            "WvjcP",
+            "module",
+            40
+        ],
+        "sirv_AsyncResetRegVec": [
+            "sirv_AsyncResetRegVec",
+            "f1KhP",
+            "module",
+            18
+        ],
+        "e203_itcm_ctrl": [
+            "e203_itcm_ctrl",
+            "Grwvt",
+            "module",
+            45
+        ],
+        "sirv_expl_axi_slv": [
+            "sirv_expl_axi_slv",
+            "iskzD",
+            "module",
+            19
+        ],
+        "e203_ifu": [
+            "e203_ifu",
+            "wyN57",
+            "module",
+            35
+        ],
+        "e203_irq_sync_0000": [
+            "e203_irq_sync_0000",
+            "SeKL1",
+            "module",
+            26
+        ],
+        "sirv_queue_1": [
+            "sirv_queue_1",
+            "gxDZF",
+            "module",
+            21
+        ],
+        "e203_exu": [
+            "e203_exu",
+            "EmsKp",
+            "module",
+            41
+        ],
+        "sirv_qspi_media": [
+            "sirv_qspi_media",
+            "PHSTm",
+            "module",
+            22
+        ],
+        "sirv_gnrl_icb32towishb8": [
+            "sirv_gnrl_icb32towishb8",
+            "Fsvhg",
+            "module",
+            62
+        ],
+        "sirv_aon_lclkgen_regs": [
+            "sirv_aon_lclkgen_regs",
+            "IB8ZZ",
+            "module",
+            23
+        ],
+        "sirv_wdog": [
+            "sirv_wdog",
+            "EfMb9",
+            "module",
+            24
+        ],
+        "sirv_gnrl_axi_buffer": [
+            "sirv_gnrl_axi_buffer",
+            "vudJa",
+            "module",
+            64
+        ],
+        "e203_exu_longpwbck": [
+            "e203_exu_longpwbck",
+            "Wwk53",
+            "module",
+            29
+        ],
+        "spi_master_fifo": [
+            "spi_master_fifo",
+            "GMeK8",
+            "module",
+            68
+        ],
+        "e203_exu_alu_bjp": [
+            "e203_exu_alu_bjp",
+            "h9kax",
+            "module",
+            34
+        ],
+        "timer_module": [
+            "timer_module",
+            "ZUDr8",
+            "module",
+            70
+        ],
+        "e203_cpu_top": [
+            "e203_cpu_top",
+            "GYZf7",
+            "module",
+            30
+        ],
+        "e203_exu_alu_csrctrl": [
+            "e203_exu_alu_csrctrl",
+            "HQM4r",
+            "module",
+            33
+        ],
+        "e203_exu_decode": [
+            "e203_exu_decode",
+            "Av0PY",
+            "module",
+            36
+        ],
+        "e203_clk_ctrl": [
+            "e203_clk_ctrl",
+            "yED7S",
+            "module",
+            37
+        ],
+        "sirv_gnrl_icb_n2w_0000": [
+            "sirv_gnrl_icb_n2w_0000",
+            "YVQVr",
+            "module",
+            61
+        ],
+        "e203_dtcm_ctrl": [
+            "e203_dtcm_ctrl",
+            "DftYu",
+            "module",
+            47
+        ],
+        "e203_exu_commit": [
+            "e203_exu_commit",
+            "jtFAn",
+            "module",
+            39
+        ],
+        "e203_exu_alu_rglr": [
+            "e203_exu_alu_rglr",
+            "K0tF5",
+            "module",
+            46
+        ],
+        "e203_ifu_ift2icb": [
+            "e203_ifu_ift2icb",
+            "JHj7P",
+            "module",
+            48
+        ],
+        "sirv_debug_rom": [
+            "sirv_debug_rom",
+            "juYYc",
+            "module",
+            49
+        ],
+        "sirv_gnrl_xchecker": [
+            "sirv_gnrl_xchecker",
+            "CjC7H",
+            "module",
+            58
+        ],
+        "sirv_debug_module_0000": [
+            "sirv_debug_module_0000",
+            "gR9h2",
+            "module",
+            50
+        ],
+        "sirv_debug_ram_0000": [
+            "sirv_debug_ram_0000",
+            "acEjW",
+            "module",
+            51
+        ],
+        "sirv_icb1to16_bus": [
+            "sirv_icb1to16_bus",
+            "qknGn",
+            "module",
+            52
+        ],
+        "sirv_gnrl_fifo_0002_0000": [
+            "sirv_gnrl_fifo_0002_0000",
+            "TTSjj",
+            "module",
+            56
+        ],
+        "apb_gpio": [
+            "apb_gpio",
+            "FVB3U",
+            "module",
+            65
+        ],
+        "sirv_gnrl_fifo_0002_0001": [
+            "sirv_gnrl_fifo_0002_0001",
+            "AERgp",
+            "module",
+            57
+        ],
+        "sirv_gnrl_icb2apb": [
+            "sirv_gnrl_icb2apb",
+            "ftBvI",
+            "module",
+            63
+        ],
+        "apb_i2c": [
+            "apb_i2c",
+            "DUUHd",
+            "module",
+            66
+        ],
+        "apb_spi_master": [
+            "apb_spi_master",
+            "ftnmP",
+            "module",
+            67
+        ],
+        "comparator": [
+            "comparator",
+            "U57Qt",
+            "module",
+            69
+        ]
+    },
+    "MlibObjs": {},
+    "PrevCompiledModules": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "e203_subsys_plic",
+        "e203_subsys_plic",
+        "e203_subsys_hclkgen",
+        "e203_subsys_hclkgen",
+        "e203_subsys_nice_core_0000",
+        "e203_subsys_nice_core_0000",
+        "e203_subsys_mems",
+        "e203_subsys_mems",
+        "e203_subsys_clint",
+        "e203_subsys_clint",
+        "sirv_aon_porrst",
+        "sirv_aon_porrst",
+        "sirv_flash_qspi",
+        "sirv_flash_qspi",
+        "sirv_qspi_flashmap",
+        "sirv_qspi_flashmap",
+        "sirv_queue",
+        "sirv_queue",
+        "sirv_rtc",
+        "sirv_rtc",
+        "sirv_jtaggpioport",
+        "sirv_jtaggpioport",
+        "sirv_qspi_fifo",
+        "sirv_qspi_fifo",
+        "sirv_ResetCatchAndSync",
+        "sirv_ResetCatchAndSync",
+        "sirv_ResetCatchAndSync_2",
+        "sirv_ResetCatchAndSync_2",
+        "sirv_aon_top",
+        "sirv_aon_top",
+        "sirv_hclkgen_regs",
+        "sirv_hclkgen_regs",
+        "sirv_AsyncResetRegVec",
+        "sirv_AsyncResetRegVec",
+        "sirv_expl_axi_slv",
+        "sirv_expl_axi_slv",
+        "sirv_pmu",
+        "sirv_pmu",
+        "sirv_queue_1",
+        "sirv_queue_1",
+        "sirv_qspi_media",
+        "sirv_qspi_media",
+        "sirv_aon_lclkgen_regs",
+        "sirv_aon_lclkgen_regs",
+        "sirv_wdog",
+        "sirv_wdog",
+        "sirv_qspi_arbiter",
+        "sirv_qspi_arbiter",
+        "e203_irq_sync_0000",
+        "e203_irq_sync_0000",
+        "e203_lsu",
+        "e203_lsu",
+        "e203_exu_csr",
+        "e203_exu_csr",
+        "e203_exu_longpwbck",
+        "e203_exu_longpwbck",
+        "e203_cpu_top",
+        "e203_cpu_top",
+        "e203_reset_ctrl_0000",
+        "e203_reset_ctrl_0000",
+        "e203_exu_disp",
+        "e203_exu_disp",
+        "e203_exu_alu_csrctrl",
+        "e203_exu_alu_csrctrl",
+        "e203_exu_alu_bjp",
+        "e203_exu_alu_bjp",
+        "e203_ifu",
+        "e203_ifu",
+        "e203_exu_decode",
+        "e203_exu_decode",
+        "e203_clk_ctrl",
+        "e203_clk_ctrl",
+        "e203_srams",
+        "e203_srams",
+        "e203_exu_commit",
+        "e203_exu_commit",
+        "e203_exu_alu_dpath",
+        "e203_exu_alu_dpath",
+        "e203_exu",
+        "e203_exu",
+        "e203_exu_regfile_0000",
+        "e203_exu_regfile_0000",
+        "e203_clkgate",
+        "e203_clkgate",
+        "e203_exu_wbck",
+        "e203_exu_wbck",
+        "e203_itcm_ctrl",
+        "e203_itcm_ctrl",
+        "e203_exu_alu_rglr",
+        "e203_exu_alu_rglr",
+        "e203_dtcm_ctrl",
+        "e203_dtcm_ctrl",
+        "e203_ifu_ift2icb",
+        "e203_ifu_ift2icb",
+        "sirv_debug_rom",
+        "sirv_debug_rom",
+        "sirv_debug_module_0000",
+        "sirv_debug_module_0000",
+        "sirv_debug_ram_0000",
+        "sirv_debug_ram_0000",
+        "sirv_icb1to16_bus",
+        "sirv_icb1to16_bus",
+        "sirv_gnrl_pipe_stage_0000",
+        "sirv_gnrl_pipe_stage_0000",
+        "sirv_gnrl_pipe_stage_0001_0001",
+        "sirv_gnrl_pipe_stage_0001_0001",
+        "sirv_gnrl_pipe_stage_0001_0002",
+        "sirv_gnrl_pipe_stage_0001_0002",
+        "sirv_gnrl_fifo_0002_0000",
+        "sirv_gnrl_fifo_0002_0000",
+        "sirv_gnrl_fifo_0002_0001",
+        "sirv_gnrl_fifo_0002_0001",
+        "sirv_gnrl_xchecker",
+        "sirv_gnrl_xchecker",
+        "sirv_gnrl_ltch",
+        "sirv_gnrl_ltch",
+        "sirv_gnrl_icb_buffer_0000",
+        "sirv_gnrl_icb_buffer_0000",
+        "sirv_gnrl_icb_n2w_0000",
+        "sirv_gnrl_icb_n2w_0000",
+        "sirv_gnrl_icb32towishb8",
+        "sirv_gnrl_icb32towishb8",
+        "sirv_gnrl_icb2apb",
+        "sirv_gnrl_icb2apb",
+        "sirv_gnrl_axi_buffer",
+        "sirv_gnrl_axi_buffer",
+        "apb_gpio",
+        "apb_gpio",
+        "apb_i2c",
+        "apb_i2c",
+        "apb_spi_master",
+        "apb_spi_master",
+        "spi_master_fifo",
+        "spi_master_fifo",
+        "comparator",
+        "comparator",
+        "timer_module",
+        "timer_module",
+        "apb_adv_timer",
+        "apb_adv_timer",
+        "apb_uart_sv",
+        "apb_uart_sv",
+        "tb_top",
+        "tb_top"
+    ],
+    "PEModules": [],
+    "cpu_cycles_pass2_start": 389360720664692,
+    "CompileStrategy": "fullobj",
+    "rlimit": {
+        "data": -1,
+        "stack": -1
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 197586,
+        "text": 0,
+        "archive": "archive.0/_7763_archive_1.a"
+    },
+    "incremental": "on",
+    "CompileProcesses": [
+        "cgproc.7763.json"
+    ],
+    "Misc": {
+        "daidir": "simv.daidir",
+        "master_pid": 7763,
+        "VCS_HOME": "/home/synopsys/vcs-mx/O-2018.09-1",
+        "vcs_version": "O-2018.09-1_Full64",
+        "vcs_build_date": "Build Date = Oct 12 2018 20:38:10",
+        "hostname": "IC_EDA",
+        "cwd": "/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run",
+        "default_output_dir": "csrc",
+        "csrc": "csrc",
+        "csrc_abs": "/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/csrc",
+        "daidir_abs": "/home/ICer/ic_prjs/e203_hbirdv2_MOD/vsim/run/simv.daidir",
+        "archive_dir": "archive.0"
+    },
+    "CompileStatus": "Successful"
+}

@@ -39,7 +39,7 @@ This project implements the ​`RISC-V Hummingbird E203 (hbirdv2)` core on Xilin
   - Xilinx SDK 2018.3
 
 ## 🚀 Quick Start Guide
-For detailed implementation steps, please refer to：[移植教程](https://blog.csdn.net/m0_62001119/article/details/145997546)
+For detailed implementation steps, please refer to：[移植教程](https://blog.csdn.net/m0_62001119/article/details/145978791?fromshare=blogdetail&sharetype=blogdetail&sharerId=145978791&sharerefer=PC&sharesource=m0_62001119&sharefrom=from_link)
 
 ## 📜 License
 This project is licensed under Apache 2.0 License. Commercial use must comply with Nuclei E203's original license terms.  
